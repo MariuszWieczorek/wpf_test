@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:wpf_test"
         xmlns:self="clr-namespace:wpf_test"
         mc:Ignorable="d"
-        Title="WiazanieDanych01" Height="450" Width="800">
+        Title="WiazanieDanych01" Height="600" Width="1200">
    
 
     <Window.CommandBindings>
@@ -55,7 +55,9 @@
 
                 <StackPanel Orientation="Vertical"  Width="200" HorizontalAlignment="Right" Grid.Column="2">
 
-                    <Button x:Name="btnExit" IsCancel="True" Content="_Zamknij" Margin="0 10 0 0" Click="btnExit_Click"/>
+                    
+                    <Button x:Name="btnWstecz" IsCancel="True" Content="_Wstecz" Margin="0 10 0 0" Click="btnWstecz_Click"/>
+                    <Button x:Name="btnExit" Content="_Zamknij Aplikację" Margin="0 10 0 0" Command="self:CustomCommands.Exit"/>
 
                 </StackPanel>
 

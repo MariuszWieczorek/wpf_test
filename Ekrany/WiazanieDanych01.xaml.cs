@@ -34,6 +34,12 @@ namespace wpf_test
 
         }
 
+
+        private void btnWstecz_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
 
@@ -62,5 +68,7 @@ namespace wpf_test
             Application.Current.Shutdown();
 
         }
+
+       
     }
 }
